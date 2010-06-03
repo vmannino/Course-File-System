@@ -9,12 +9,11 @@
 	$allowregistration = true; //set false if you wish to prevent new user registration
 	$mimepath = 'E:\xampplite\apache\conf\mime.types';
 
-$adminEmail="vincemannino@gmail.com";
-$mysqlhost = "localhost";
-$mysqluser = "root";
-$mysqlpass = "ASammRpjHvQJJuNH";
-$mysqldb = "saepenntheta";
-$mysqlpre = "mfs";
+$adminEmail="";
+$mysqlhost = "";
+$mysqluser = "";
+$mysqlpass = "";
+$mysqldb = "";
 @mysql_pconnect($mysqlhost, $mysqluser, $mysqlpass) or die('Could not connect to MySQL Server!');
 @mysql_select_db($mysqldb)or die('Could not select database!');
 ?>
